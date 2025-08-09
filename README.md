@@ -18,8 +18,7 @@ This dataset shaped the design and functionalities of the app.
 
 ## Screenshot of the Dashboard
 
-<img width="1909" height="891" alt="app_scrennshot_1" src="https://github.com/user-attachments/assets/75dcea66-7b4a-4050-905b-c1b17fe9bade" />
-<img width="1906" height="858" alt="app_screenshot_2" src="https://github.com/user-attachments/assets/70b57a35-7228-4e92-ba2e-52904faab216" />
+![app_screenshot](https://github.com/user-attachments/assets/7158513c-df6c-4036-902e-434c28387636)
 
 ## Installation and Running the App
 
