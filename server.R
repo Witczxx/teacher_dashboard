@@ -60,6 +60,7 @@ server <- function(input, output, session) {
     ratio_trial <- 
       paste0(round(100*(sum(
         filtered_data()$Student == "试听") / nrow(filtered_data())
+        # 试听 = Trial Class
       ), digits=0), "%") # like helper.R
     value_box(
       title = "Ratio Trial Classes",

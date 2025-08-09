@@ -21,8 +21,6 @@ jcalendar <- tryCatch({
 
 ### Transform into Tibble -----
 calendar <- as_tibble(jcalendar)
-rm(jcalendar)
-rm(jcal)
 
 ### Change Data Type -----
 calendar$Start_Time <- as.POSIXct(calendar$Start_Time)
@@ -55,6 +53,7 @@ percent_trial <-
     round(
       100*(
         sum(calendar$Student == "试听") / nrow(calendar)), digits = 0), "%")
+        # 试听 = Trial Class
 
 ### KPI 04 - Total Students -----
 total_students <- 

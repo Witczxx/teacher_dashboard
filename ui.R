@@ -65,12 +65,14 @@ ui <- page_fluid(
         # Date Layout Filter ---
         selectInput("date_layout", "Choose Accuracy of Graphics",
                     choices = c("Years", "Months", "Weeks", "Days"),
-                    selected = "Months"),
+                    selected = "Months"
+                    ),
         
         # Date Range Filter ---
         dateRangeInput("date_range", "Choose Time Range",
-                       start = as.Date("2024-01-01"),
-                       end = as.Date("2025-07-31") )
+                       start = min(calendar$Start_Time),
+                       end = max(calendar$End_Time)
+                       ),
       )
     ), #Card
     
