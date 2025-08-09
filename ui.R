@@ -9,7 +9,7 @@ ui <- page_fluid(
     div(
       style = "text-align: center;",
       h2("Teacher Dashboard"),
-      p(style = "color: #666; font-size: 1.1rem;", "Feb 2024 – Jun 2025")
+      p(style = "color: #666; font-size: 1.1rem;", "Jan 2020 – Aug 2021")
     )
   ),
   

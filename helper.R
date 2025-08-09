@@ -7,7 +7,7 @@ jcalendar <- tryCatch({
     dbname = "jcalendar",
     host = "localhost",
     port = 5432,
-    user = "postgres"
+    user = "postgre"
   )
   
   # Query ---
