@@ -131,7 +131,7 @@ total_sessions_plot <- ggplot(data = total_sessions_per_month) +
 
 ### PLOT 3 - Number of Hours -----
 
-# Data Frame from Plot 2 ---
+# Data Frame from KPI 06 - Ø Hours / Month ---
 
 # Create the PLOT ---
 total_hours_plot <- ggplot(data = total_hours_per_month) +

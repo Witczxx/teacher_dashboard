@@ -22,7 +22,7 @@ ui <- page_fluid(
       div(
         style = "text-align: center;",
         
-        # Check box Row 01 ---
+        # Row 01 ---
         checkboxGroupButtons(
           inputId = "level_filter_row1",
           label = "Choose Proficiencies",
@@ -34,7 +34,7 @@ ui <- page_fluid(
             yes = icon("check-circle"),
             no = icon("")  )  ),
         
-        # Check box Row 02 ---
+        # Row 02 ---
         checkboxGroupButtons(
           inputId = "level_filter_row2",
           label = NULL,
