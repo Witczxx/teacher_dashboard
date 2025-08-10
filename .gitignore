@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+project_report.html
+project_report.pdf
+*.docx
