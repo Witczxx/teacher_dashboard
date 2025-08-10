@@ -10,6 +10,8 @@ This allows teachers to perform efficient and flexible data analysis independent
 
 Built with R Shiny (and a little HTML/CSS), the dashboard features a clean and modern design.
 
+For more details on how I created the dashboard, feel free to check out my project_report.Rmd file!
+
 ## Background  
 The dashboard is based on a real use case, where only three key parameters were recorded by a teacher in a calendar app: 
 student name, proficiency level, and session start/end times. 
