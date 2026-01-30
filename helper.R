@@ -1,22 +1,12 @@
 ### Teacher Dashboard App Helper R Script -----
 
-### Connect to SQL [DBI + RPostgres Library] -----
+### Connect to Real Data -----
 jcalendar <- tryCatch({
-  jcal <- dbConnect(
-    Postgres(),
-    dbname = "jcalendar",
-    host = "localhost",
-    port = 5432,
-    user = "postgres"
-  )
-  
-  # Query ---
-  on.exit(dbDisconnect(jcal), add = TRUE)
-  dbGetQuery(jcal, "SELECT * FROM classes")
+  jcal <- read.csv("Exports/teacher_dataset.csv")
   
 # If Error - Load Fake Data ---
 }, error = function(e) {
-  read.csv("fake_data.csv")
+  read.csv("Dashboard/fake_data.csv")
 })
 
 ### Transform into Tibble -----

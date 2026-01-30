@@ -2,7 +2,7 @@
 
 ### Loading Packages -----
 library(tidyverse)
-library(RPostgres)
+library(tibble)
 library(DBI)
 library(showtext)
 library(shiny)
@@ -11,9 +11,9 @@ library(bsicons)
 library(shinyWidgets)
 
 ### Loading R Scripts -----
-source("helper.R")
-source("ui.R")
-source("server.R")
+source("Dashboard/helper.R")
+source("Dashboard/ui.R")
+source("Dashboard/server.R")
 
 # Run App -----
 shinyApp(ui, server)
