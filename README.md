@@ -42,6 +42,11 @@ This dataset shaped the design and functionalities of the app.
    ```r
    install.packages("package-name")
 
+5. **Run the App**  
+   Open the `app.R` file (it should open automatically when you open the `.Rproj`).  
+   Select the entire script and click the **Run** button.  
+   The dashboard should launch within a few seconds.
+
 ## App Structure
 
 The app layout is organized into three main sections:
